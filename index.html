@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title id="apptitle">New Tab</title>
+    <link href="starterpage.css" rel="stylesheet">
+</head>
+<body>
+<div id="allwrap">
+    <div id="elclock" class="clock"></div>
+    
+    <input type="text" id="searchbar" placeholder="Search the Web" autofocus onclick="this.select()">
+    <div id="charms">
+        <span id="" title="View the chimera source code on GitHub" onclick="openRepo()">
+        <font color="white" face="sans-serif"> <u>View on Github</u> </font>
+        </span>
+    </div>
+    
+    <div id="identifier">
+        I &lt;3 The Chimera Project<br>
+        <font color="#adadad">Photos Provided by Lorum Picsum</font> &nbsp; | &nbsp; <font color="#ededed">wayoutware</font> 
+    </div>
+    
+    <img src="icon.png" id="branding" draggable="false">
+    
+</div>
+    <!-- <div id="background"> -->
+        <div id="bgwrapper">
+            <img id="background-img" draggable="false" onload="imgAnimate()" src="https://picsum.photos/g/1600/900/?random">
+        </div>
+        
+        <script src="logic.js"></script>
+        <script src="clock.js"></script>
+</body>
